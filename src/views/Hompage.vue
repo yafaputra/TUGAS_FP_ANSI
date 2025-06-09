@@ -4,11 +4,11 @@
     <section class="hero">
       <div class="hero-content">
         <div class="hero-image">
-          <img src="https://tnova.fr/site/assets/files/10962/wesley-tingey-dkckic0bqtu-unsplash.768x512-u0i0s0q90f1.768x512-u0i0s0q90f1.webp?1gvwp6" 
+          <img src="https://tnova.fr/site/assets/files/10962/wesley-tingey-dkckic0bqtu-unsplash.768x512-u0i0s0q90f1.768x512-u0i0s0q90f1.webp?1gvwp6"
                alt="Sport Venue" class="main-hero-img">
           <div class="hero-overlay">
             <h1 class="hero-title">Find Your Perfect Sport Venue</h1>
-            <p class="hero-subtitle">Book premium sports facilities for your games and events</p>
+            <p class="hero-subtitle">Booking premium sports facilities for your games and events</p>
             <button class="cta-button">
               <span>Explore Venues</span>
               <svg class="cta-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -96,7 +96,7 @@
               </div>
               <div class="venue-rating">
                 <div class="stars">
-                  <span v-for="star in 5" :key="star" 
+                  <span v-for="star in 5" :key="star"
                         :class="star <= venue.rating ? 'star-filled' : 'star-empty'">⭐</span>
                 </div>
                 <span class="rating-score">{{ venue.rating }}</span>
@@ -764,11 +764,11 @@ export default {
   .venues-grid {
     grid-template-columns: repeat(2, 1fr);
   }
-  
+
   .category-grid {
     grid-template-columns: repeat(2, 1fr);
   }
-  
+
   .stats-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
@@ -779,29 +779,29 @@ export default {
   .hero-title {
     font-size: 2.5rem;
   }
-  
+
   .hero-subtitle {
     font-size: 1.1rem;
   }
-  
+
   .section-title {
     font-size: 2rem;
   }
-  
+
   .venues-grid,
   .category-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .stats-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
   }
-  
+
   .newsletter-form {
     flex-direction: column;
   }
-  
+
   .venue-header {
     flex-direction: column;
     align-items: flex-start;
@@ -814,24 +814,24 @@ export default {
     height: 60vh;
     min-height: 500px;
   }
-  
+
   .hero-title {
     font-size: 2rem;
   }
-  
+
   .section-title {
     font-size: 1.8rem;
   }
-  
+
   .stats-grid {
     grid-template-columns: 1fr;
     gap: 30px;
   }
-  
+
   .container {
     padding: 0 15px;
   }
-  
+
   .venue-info {
     padding: 20px;
   }

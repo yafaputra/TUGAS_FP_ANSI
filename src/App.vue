@@ -1,10 +1,12 @@
 <template>
   <div>
-    <Navbar />
+    <Header />
     <router-view />
+    <Footer />
   </div>
 </template>
 
 <script setup>
-import Navbar from './components/Navbar.vue'
+import Header from '@/components/layouts/TheHeader.vue'
+import Footer from '@/components/layouts/TheFooter.vue'
 </script>
